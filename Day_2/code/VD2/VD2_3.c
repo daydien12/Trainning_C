@@ -12,6 +12,6 @@ int main()
   }
   int valueB;
   valueB = valueB + 10;
-  printf("valueA: %d \n", valueB);
+  printf("valueB: %d \n", valueB);
 }
 

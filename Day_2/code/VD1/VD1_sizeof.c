@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 #define test 0
+
 typedef struct
 {
   char A;
@@ -9,9 +10,10 @@ typedef struct
 } Sizee;
 
 int main() {
+
   if (test == 1)
   {
-    printf("Kich co cua kieu du lieu char la: %d", (int)sizeof(char));
+    printf("Kich co cua kieu du lieu char la: %ld", sizeof(char));
     printf("\nKich co cua kieu du lieu int la: %d",  (int)sizeof(int));
     printf("\nKich co cua kieu du lieu float la: %d",  (int)sizeof(float));
     printf("\nKich co cua kieu du lieu double la: %d",  (int)sizeof(double));

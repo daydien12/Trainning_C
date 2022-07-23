@@ -10,7 +10,7 @@ foo := start
 foo += more
 
 rule2: 
-	echo $(foo)
+	@echo $(foo)
 
 
 rule3:  one = cool

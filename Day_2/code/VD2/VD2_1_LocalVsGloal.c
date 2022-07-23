@@ -2,11 +2,11 @@
 #include <stdio.h>
 void myFun1(void);
 
-#define test1 0 // cục bộ
-//int myScore;
+#define test1 1 // cục bộ
+int myScore;
 int main()
 {
-  int myScore;
+  //int myScore;
   myScore = 999;
   printf("001gia tri cua bien myScore %d \n", myScore);
   myFun1();

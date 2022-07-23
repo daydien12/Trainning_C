@@ -19,7 +19,7 @@ ifeq ($(nullstring),)
 endif
 	@echo $(a)
 
-bar =
+bar = 
 foo = $(bar)
 
 rule3: #kiểm tra biến đã được xác định chưa

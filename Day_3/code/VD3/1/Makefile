@@ -23,12 +23,12 @@ rule5: $(var2)
 
 
 rule6: 
-	@echo *.cpp
-	@echo *.o
+	@echo *.c
+	@echo *.h
 
 rule7: 
 	@echo $(wildcard *.c)
-	@echo $(wildcard *.o)
+	@echo $(wildcard *.h)
 
 rule8: $(var3)
 %.o: %.c

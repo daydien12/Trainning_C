@@ -1,7 +1,7 @@
 /*đặt trùng tên biến cục bộ và toàn cục*/
 #include <stdio.h>
 
-#define test1 1
+#define test1 3
 
 int valueA = 10;
 
